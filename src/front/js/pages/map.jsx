@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import { Context } from "./store/appContext";
+// import { Context } from "./store/appContext";
 
 export const Map = () => {
-    const { store, actions } = useContext(Context);
+    // const { store, actions } = useContext(Context);
 	let map;
 	let marker;
 	//geolocalización
